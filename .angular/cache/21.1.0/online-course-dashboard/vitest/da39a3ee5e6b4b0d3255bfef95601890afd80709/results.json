@@ -1,0 +1,1 @@
+{"version":"4.0.17","results":[["online-course-dashboard:src/app/app.spec.ts",{"duration":290.38356299999987,"failed":true}],["online-course-dashboard:src/app/course-details/course-details.spec.ts",{"duration":319.92545999999993,"failed":false}],["online-course-dashboard:src/app/dashboard/dashboard.spec.ts",{"duration":477.86156900000015,"failed":false}]]}

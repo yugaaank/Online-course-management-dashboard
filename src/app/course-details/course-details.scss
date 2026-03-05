@@ -1,0 +1,40 @@
+.details-container {
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.details-card {
+  width: 100%;
+  padding: 16px;
+  
+  mat-card-header {
+    margin-bottom: 24px;
+  }
+
+  mat-card-title {
+    font-size: 2rem;
+    color: var(--mat-sys-primary);
+  }
+
+  mat-card-subtitle {
+    font-size: 1.1rem;
+    margin-top: 8px;
+  }
+
+  mat-card-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+  
+  mat-card-actions {
+    padding-top: 16px;
+    border-top: 1px solid var(--mat-sys-outline-variant);
+  }
+}

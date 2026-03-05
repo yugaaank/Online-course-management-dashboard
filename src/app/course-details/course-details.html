@@ -1,10 +1,23 @@
-<div style="padding: 20px">
-  <h1>Course Details</h1>
-  <p>You are viewing details for:</p>
-  <h2>{{ courseTitle }}</h2>
+<mat-toolbar color="primary">
+  <span>Course Details</span>
+</mat-toolbar>
 
-  <button mat-raised-button color="primary" routerLink="/">
-    Back to Dashboard
-  </button>
+<div class="details-container">
+  <mat-card class="details-card">
+    <mat-card-header>
+      <mat-card-title>{{ courseTitle }}</mat-card-title>
+      <mat-card-subtitle>Course Information</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <p>You are viewing the detailed information and curriculum for <strong>{{ courseTitle }}</strong>.</p>
+      <p>This is a placeholder for the course description, syllabus, instructor details, and more. In a real application, this data would be fetched from a backend service based on the course title or ID.</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button color="primary" routerLink="/">
+        Back to Dashboard
+      </button>
+    </mat-card-actions>
+  </mat-card>
 </div>
-
